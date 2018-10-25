@@ -15,6 +15,11 @@ aside a {
 	text-transform: lowercase;
 }
 
+main {
+	float: left;
+	width: 85%;
+}
+
 main a {
 	color: #851944;
 }
@@ -39,6 +44,7 @@ em {
 
 h2 {
 	font-size: 30px;
+	clear: both;
 }
 
 article {
@@ -65,11 +71,19 @@ article {
 	text-transform: uppercase;
 }
 
-.font-title-subtitle {
+.font-title-subtitle-menu {
 	font-family: "Open Sans Condensed", "Arial", sans-serif;
 }
 
 /* menu */
+aside, img {
+	float: right;
+	width: 15%;
+	box-sizing: border-box;
+	border-bottom: 10px solid black;
+	border-left: 10px solid black;
+}
+
 .navegacao-site {
     background-color: #3C1D3D;
     color: #F2FFFC;
@@ -103,13 +117,6 @@ article {
 }
 
 /* blog.html */
-.recomendacoes {
-	background-color: #D9E5E3;
-	border: 10px solid #C2CCCA;
-	width: 250px;
-	box-sizing: border-box;
-	margin: 20px 40px;
-}
 
 .leia-mais {
 	padding: 20px;
@@ -120,9 +127,32 @@ article {
 	background-color: #E6E7E8;
 }
 
+/* recommendations */
+cite {
+    font-style: italic;
+    float: right;
+}
+
+.recomendacoes {
+	background-color: #D9E5E3;
+	border: 10px solid #C2CCCA;
+	width: 250px;
+	box-sizing: border-box;
+	margin: 20px;
+}
+
+.fiat {
+	float: right;
+}
+
+.petrobras {
+	float: left;
+}
+
 /* footer */
 #rodape-pagina {
     background-color: #000;
     color: #F2FFFC;
-    padding: 20px;
+	padding: 20px;
+	clear: both;
 }
