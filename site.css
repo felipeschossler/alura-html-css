@@ -12,6 +12,7 @@ p {
 
 aside a {
 	color: #F2FFFC;
+	text-transform: lowercase;
 }
 
 main a {
@@ -25,6 +26,7 @@ blockquote, aside, footer {
 aside h1 {
 	font-size: 30px;
 	margin-bottom: 25px;
+	text-transform: uppercase;
 }
 
 strong {
@@ -45,20 +47,29 @@ article {
 	margin-bottom: 20px;
 }
 
-#rodape-pagina {
-    background-color: #000;
-    color: #F2FFFC;
-    padding: 20px;
+/* center main content */
+.centraliza-conteudo {
+	width: 720px;
+	margin: auto;
+	padding: 30px 0;
 }
 
-.recomendacoes {
-	background-color: #D9E5E3;
-	border: 10px solid #C2CCCA;
-	width: 250px;
-	box-sizing: border-box;
-	margin: 20px 40px;
+/* title and subtitle */
+.titulo-principal {
+	text-align: center;
+	background-color: #851944;
+	color: #FFF;
+	padding: 25px;
+	border-bottom: 10px solid black;
+	font-size: 60px;
+	text-transform: uppercase;
 }
 
+.font-title-subtitle {
+	font-family: "Open Sans Condensed", "Arial", sans-serif;
+}
+
+/* menu */
 .navegacao-site {
     background-color: #3C1D3D;
     color: #F2FFFC;
@@ -71,23 +82,33 @@ article {
 	padding-top: 15px;
 }
 
-.centraliza-conteudo {
-	width: 720px;
-	margin: auto;
-	padding: 30px 0;
+.icones-sociais a {
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	text-indent: 15px;
+	font-size: 0px;
 }
 
-.font-title-subtitle {
-	font-family: "Open Sans Condensed", "Arial", sans-serif;
+.github-image {
+	background-image: url(github.png);
 }
 
-.titulo-principal {
-	text-align: center;
-	background-color: #851944;
-	color: #FFF;
-	padding: 25px;
-	border-bottom: 10px solid black;
-	font-size: 60px;
+.twitter-image {
+	background-image: url(twitter.png);
+}
+
+.linkedin-image {
+	background-image: url(linkedin.png);
+}
+
+/* blog.html */
+.recomendacoes {
+	background-color: #D9E5E3;
+	border: 10px solid #C2CCCA;
+	width: 250px;
+	box-sizing: border-box;
+	margin: 20px 40px;
 }
 
 .leia-mais {
@@ -97,4 +118,11 @@ article {
 	font-size: 24px;
 	text-align: center;
 	background-color: #E6E7E8;
+}
+
+/* footer */
+#rodape-pagina {
+    background-color: #000;
+    color: #F2FFFC;
+    padding: 20px;
 }
