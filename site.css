@@ -53,6 +53,16 @@ article {
 	margin-bottom: 20px;
 }
 
+.minha-foto {
+	float: right;
+	box-sizing: border-box;
+	border-bottom: 10px solid black;
+	border-left: 10px solid black;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
 /* center main content */
 .centraliza-conteudo {
 	width: 720px;
@@ -76,12 +86,14 @@ article {
 }
 
 /* menu */
-aside, img {
+aside {
 	float: right;
 	width: 15%;
 	box-sizing: border-box;
 	border-bottom: 10px solid black;
 	border-left: 10px solid black;
+	position: relative;
+	top: 310px;
 }
 
 .navegacao-site {
