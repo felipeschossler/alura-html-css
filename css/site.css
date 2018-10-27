@@ -128,39 +128,6 @@ aside {
 	background-image: url(../img/linkedin.png);
 }
 
-/* blog.html */
-
-.leia-mais {
-	padding: 20px;
-	margin: 16px;
-	display: block;
-	font-size: 24px;
-	text-align: center;
-	background-color: #E6E7E8;
-}
-
-/* recommendations */
-cite {
-    font-style: italic;
-    float: right;
-}
-
-.recomendacoes {
-	background-color: #D9E5E3;
-	border: 10px solid #C2CCCA;
-	width: 250px;
-	box-sizing: border-box;
-	margin: 20px;
-}
-
-.fiat {
-	float: right;
-}
-
-.petrobras {
-	float: left;
-}
-
 /* footer */
 #rodape-pagina {
     background-color: #000;
